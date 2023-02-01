@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--text-color: hsl(0, 0%, 100%);
+	--body-color: hsl(217, 54%, 11%);
+	--card-color: hsl(216, 50%, 16%);
+	--line-color: hsl(215, 51%, 70%);;
+    --cyan:hsl(178, 100%, 50%);
+}
+
+body {
+	display: Flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+    background-color: var(--body-color);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.color-text{
+    color:var(--line-color);
+}
+
+header {
+	width: 260px;
+	background-color: var(--card-color);
+    flex-direction: column;
+	display: flex;
+	border-radius: 10px;
+    padding:15px;
+}
+
+
+.img-logo img{
+    border-radius:5px;
+	width: 100%;
+}
+
+main{
+    border-bottom:1px solid var(--line-color);
+    
+}
+
+main p{
+font-size: 14px;
+padding:7px 0;
+color:var(--line-color);
+}
+
+h1{
+    color:var(--text-color);
+    padding:10px 0;
+    font-size: 18px;
+}
+
+h1:hover{
+    color:var(--cyan);
+}
+
+a:hover{
+    color:var(--cyan);
+}
+
+svg .clock{
+    display:inline-block;
+    margin-right:10px;
+    vertical-align: middle;
+}
+
+svg .icon-ethereum{
+    padding-right:50px;
+
+}
+
+
+.center-main{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.eth{
+    color:var(--cyan);
+    font-weight: bold;
+}
+
+footer{
+    display:flex;
+    margin-top:20px;
+}
+
+footer a{
+    color:var(--text-color);
+    text-decoration: none;
+    margin-left:2px;
+}
+
+.img-stopka img{
+    width: 20px;
+    height: 20px;
+    margin-right:10px;
+    border:1px solid white;
+    border-radius:50%;
+}
